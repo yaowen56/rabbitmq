@@ -1,0 +1,27 @@
+# 服务名
+spring:
+  application: rabbit-mq-provider
+
+# redis配置
+  redis:
+    database: 0
+    host: 192.168.2.47
+    post: 6379
+    password: 123456
+    jedis:
+      pool:
+        max-wait: -1ms
+        max-idle: 100
+        min-idle: 2
+    timeout: 2000ms
+
+# mq配置
+  rabbitmq:
+    host: 192.168.2.47
+    port: 5672
+    username: admin
+    password: admin
+
+# 应用端口号
+server:
+  port: 8028
