@@ -34,7 +34,7 @@ public class AppController {
 
     @GetMapping("/hello")
     public String HelloWorld() {
-        return "Hello World YaoWen ~~~~~~~~~~~··!";
+        return "Hello World YaoWen 测试哈·!";
     }
 
     @GetMapping("/sendDirectMessage")
