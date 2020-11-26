@@ -5,7 +5,7 @@ spring:
 # redis配置
   redis:
     database: 0
-    host: 192.168.2.47
+    host: 192.168.2.58
     post: 6379
     password: 123456
     jedis:
@@ -17,7 +17,7 @@ spring:
 
 # mq配置
   rabbitmq:
-    host: 192.168.2.47
+    host: 192.168.2.58
     port: 5672
     username: admin
     password: admin
